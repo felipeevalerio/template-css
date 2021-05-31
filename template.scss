@@ -24,6 +24,10 @@ button{
     cursor: pointer;
 }
 
+body,input,textarea,button{ // Por padrão, o input,textarea e button não recebem a font do body.
+    font-family:"FONTE" , sans-serif;
+}
+
 [disabled]{
     opacity:0.6;
     cursor: not-allowed;
